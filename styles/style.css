@@ -2,6 +2,8 @@
     --primary-color: #562EFF;
     --fill-color: #F3F1FF;
     --instructor: #ED6B4F;
+    --gray-design: #717374;
+    --color-white: #ffffff;
 }
 
 * {
@@ -37,7 +39,7 @@ body {
 }
 
 .icon-name h1 {
-    color: #fff;
+    color: var(--color-white);
     margin-left: 10px;
 }
 
@@ -48,12 +50,12 @@ body {
 
 .nav-profile>a {
     text-decoration: none;
-    color: #fff;
+    color: var(--color-white);
     margin-right: 20px;
 }
 
 .player-blog-section {
-    background-color: #fff;
+    background-color: var(--color-white);
     width: 870px;
     height: 620px;
     margin: 0 auto;
@@ -88,7 +90,7 @@ body {
 }
 
 hr {
-    border: 1px solid lightgray;
+    border: 1px solid var(--gray-design);
     margin: 20px 0;
 }
 
@@ -112,10 +114,41 @@ hr {
     margin-left: 10px;
 }
 
-small {
-    color: #717374;
+.gray-color {
+    color: var(--gray-design);
 }
 
 .a-name {
     color: var(--primary-color);
+}
+
+/* Course Items */
+.course-container {
+    margin-top: 40px;
+}
+
+.course-items {
+    background-color: var(--color-white);
+    width: 870px;
+    height: 362px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.course-img>img {
+    width: 224;
+    height: 104;
+}
+
+.star-color {
+    color: #ffd700;
+}
+
+.clock-design {
+    display: inline-block;
+    background-color: #FFE4E8;
+    padding: 5px 8px;
+    border-radius: 20px;
+    color: #FF4A60;
 }
